@@ -13,7 +13,7 @@ echo [3/4] Committing changes...
 git commit -m "Fix curriculum list spacing, typos, and scroll-to-top layout alignment"
 echo.
 echo [4/4] Pushing to remote repository...
-git push
+git push --set-upstream origin main
 echo.
 echo ===================================================
 echo Git execution finished! Please check above output.
